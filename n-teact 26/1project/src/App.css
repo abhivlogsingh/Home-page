@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* body {
+    font-family: "Poppins", sans-serif;
+} */
+:root {
+    --red: #d01c28;
+    --gray: #2e2e2e;
+}
+
+*{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 72px;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style : none;
+    gap: 23px;
+}
+
+.Logo1 img{
+    height: 50px;
+}
+
+button{
+     all: unset;
+     padding: 6px 16px;
+     background: var(--red);
+     height: 32px;
+     color: white;
+     font-weight: 500;
+     border-radius: 15px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.team{
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 72px);
+}
+
+
+.team h1{
+    font-weight: 800;
+    font-size: 75px;
+    line-height: 70px;
+    padding-top: 45px;
+}
+
+.team p{
+    font-weight: 600;
+    color: var(--gray);
+    max-width: 320px;
+    padding-top: 25px;
+}
+
+
+.Team-btn {
+    display: flex;
+    gap: 35px;
+    padding-top: 25px;
+}
+
+.btn-2{
+    background: transparent;
+    color: var(--gray);
+    border: 2px solid gray;
+}
+
+.brand-icons img{
+    height: 35px;
+    padding-top: 15px;
+}
+
+.ja{
+    padding-left: 30px;
+}
+
+.team-img{
+    padding-top: 170px;
+    
+}
+
+.team-img img{
+    height: 470px;
+}
+
+@media (max-width: 630px) {
+    nav{
+        display: flex;
+        justify-content: space-between;
+        max-width: 680px;
+        margin: 0 auto;
+        height: 72px;
+        align-items: center;
+    }
+    
+    nav ul{
+        display: flex;
+        list-style : none;
+        gap: 23px;
+    }
+    
+    .Logo1 img{
+        height: 20px;
+    }
+    
+    button{
+         all: unset;
+         padding: 6px 16px;
+         background: var(--red);
+         height: 22px;
+         color: white;
+         font-weight: 500;
+         border-radius: 15px;
+    }
+    
+    .container {
+        margin: 0 auto;
+        max-width: 680px;
+    }
+    
+    .team{
+        display: flex;
+        align-items: center;
+        height: calc(100vh - 72px);
+    }
+    
+    
+    .team h1{
+        font-weight: 800;
+        font-size: 35px;
+        line-height: 40px;
+        padding-top: 45px;
+    }
+    
+    .team p{
+        font-weight: 600;
+        color: var(--gray);
+        max-width: 120px;
+        padding-top: 25px;
+    }
+    
+    
+    .Team-btn {
+        display: flex;
+        gap: 25px;
+        padding-top: 25px;
+    }
+    
+    .btn-2{
+        background: transparent;
+        color: var(--gray);
+        border: 2px solid gray;
+    }
+    
+    .brand-icons img{
+        height: 15px;
+        padding-top: 15px;
+    }
+    
+    .ja{
+        padding-left: 30px;
+    }
+    
+    .team-img{
+        padding-top: 170px;
+    }
+
+    .team-img img{
+        height: 270px;
+    }
+}
+
+
